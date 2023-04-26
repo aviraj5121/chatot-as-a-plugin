@@ -1,0 +1,30 @@
+[33mcommit bf42b781b208358337e3cf104e2f6c98ff67f79b[m[33m ([m[1;36mHEAD -> [m[1;32mkartik[m[33m)[m
+Merge: 9b567e55 1582a5e6
+Author: aviraj5121 <avirajnimja12@gmail.com>
+Date:   Wed Apr 26 20:06:32 2023 +0530
+
+    Commit message describing the changes you made
+
+[33mcommit 1582a5e6872da9c2946d78407941c3adb1043194[m[33m ([m[1;31morigin/frontend[m[33m, [m[1;32mfrontend[m[33m)[m
+Author: aviraj5121 <avirajnimja12@gmail.com>
+Date:   Wed Apr 26 19:55:34 2023 +0530
+
+    module deleted
+
+[33mcommit 9b567e55b70d53f4bd429e29958b0628e7123626[m[33m ([m[1;31morigin/kartik[m[33m)[m
+Author: kartikgupta <kartik.gupta2505@gmail.com>
+Date:   Wed Apr 26 18:03:43 2023 +0530
+
+    initial chatbot
+
+[33mcommit 0ea7fb36448dbe483b191340fd61aff88e6eeefb[m
+Author: aviraj5121 <avirajnimja12@gmail.com>
+Date:   Sun Apr 23 20:06:58 2023 +0530
+
+    first chnages
+
+[33mcommit 9718cd7654c53c7680dd6472a86899f46aea6971[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: kartikgupta <kartik.gupta2505@gmail.com>
+Date:   Sat Apr 22 12:52:05 2023 +0530
+
+    first commit
