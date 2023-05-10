@@ -13,8 +13,11 @@
             <h1>Chatbot</h1>
         </div>
         <div id="chatbot">
-            <div id="conversation">
-              <div class="chatbot-message">
+          <div id="conversation">
+            <div class="chatbot-message">
+                <div class="avatar">
+                  <img src="https://via.placeholder.com/50x50" alt="Avatar">
+                </div>
                 <p class="chatbot-text">Hi! 👋 it's great to see you!</p>
               </div>
             </div>
@@ -24,13 +27,14 @@
                 <button id="submit-button" type="submit">
                   <img class="send-icon" src="send-message.png" alt="">
                 </button>
+                  <button type="submit" id="submit-btn" class="sendButton">Send</button>
               </message-container>
                 
             </form>
         </div>  
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <script src="chatbot.js"></script>
 </body>
 </html>
