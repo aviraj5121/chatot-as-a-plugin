@@ -1,3 +1,5 @@
+import API_KEY from "./config.js";
+
 // Get chatbot elements
 const chatbot = document.getElementById('chatbot');
 const conversation = document.getElementById('conversation');
@@ -38,7 +40,7 @@ async function generateResponse(input) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': `Bearer ${API_KEY}`
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
