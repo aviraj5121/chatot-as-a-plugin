@@ -1,5 +1,3 @@
-import API_KEY from "./config.js";
-
 // Get chatbot elements
 const chatbot = document.getElementById('chatbot');
 const conversation = document.getElementById('conversation');
@@ -32,10 +30,10 @@ inputForm.addEventListener('submit', async function(event) {
   conversation.appendChild(message);
   message.scrollIntoView({behavior: "smooth"});
 });
-
 // Generate chatbot response function
 async function generateResponse(input) {
   try {
+    console.log(input)
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -47,7 +45,6 @@ async function generateResponse(input) {
         messages: [{"role": "user", "content": input }],
         "max_tokens": 50,
       })
-      
     })
     console.log(response)
     const data = await response.json();
