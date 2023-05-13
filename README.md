@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Usage
+The chatbot plugin exposes a REST API endpoint that you can use to interact with it. The endpoint is located at http://localhost:3000/chatbot. You can send a POST request to this endpoint with the user's message as the payload, and the plugin will respond with a generated message.
+
+Here's an example of how to use the plugin with the curl command:
+
+bash
+Copy code
+$ curl --request POST \
+       --url http://localhost:3000/chatbot \
+       --header 'Content-Type: application/json' \
+       --data '{"message": "Hello, how are you?"}'
+The plugin will respond with a JSON object containing the generated message:
+
+json
+Copy code
+{
+  "message": "I'm doing well, thank you. How about you?"
+}
+Contributing
+If you want to contribute to this project, you can fork the repository and submit a pull request with your changes. Please make sure to follow the contribution guidelines when submitting your code.
